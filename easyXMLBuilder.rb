@@ -1,5 +1,5 @@
 load 'easyXMLNode.rb'
-# this is the builder class.
+
 
 class EzXmlBuilder
 	attr_accessor :indent, :cont, :rootNodeLst, :currentIndex  # may add meta information later

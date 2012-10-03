@@ -33,6 +33,7 @@ class EzXmlNode
 	end
 
 	def  to_s()
+		@cont = ''
 		# may support "child node stuff before self attribute" later! << this is an important thing
 		@cont += " " * ( @indent * @level )
 		@cont += ('<' +@name + '>')
